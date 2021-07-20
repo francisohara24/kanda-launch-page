@@ -1,2 +1,2 @@
 # Kanda
-Minimalist page for Kanda authentication site.
+Minimalist Kanda authentication page.
