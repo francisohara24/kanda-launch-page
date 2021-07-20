@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kanda Weather Balloons</title>
+        <link rel="icon" href="https://github.com/francis-ohara/Kanda/blob/main/Kandaweather-balloons-1.jpg?raw=true">
+    </head>
+
+    <body style="background-image: url('https://github.com/francis-ohara/Kanda/blob/main/e02ffed59c2c5075bd70a6b422cccf2f.jpg?raw=true')">
+        <form  class="form1" style="padding: 1px 150px 120px;">
+            <div style="background-color: seashell; border: 20px">
+            <fieldset style="padding-right: 50px; padding-left: 50px; background-color: seashell;">
+                <legend align="center" style="color: #4d004d; font-family: monospace; font-size: 40px; font-weight: 800; line-height: 72px; margin: 0 0 0px; text-align: center;  text-transform: uppercase">Kanda Weather Balloons</legend>
+                <table align="right">
+                    <tr>
+                        <td><b style="font-size:20px; color: #4d004d; font-family: monospace; text-transform: uppercase">Current Readings</b></td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <div style="font-size:18px" class="form1">
+                            Temperature:
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <div class="form1" style="font-size:18px">
+                            Pressure:
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <div class="form1" style="font-size:18px">
+                        Humidity:
+                    </div>
+                    </td>
+                    </tr>
+                </table>
+                <br>
+
+                <div align="center">
+                    <img src="https://github.com/francis-ohara/Kanda/blob/main/image5.png?raw=true" height="150" style="padding-left: 170px; padding-bottom: 30px">
+                    <div class="form1" style="font-size:20px">
+                        <label for="miner_account_name"> Miner's Account: </label>
+                        <input type="text" id="miner_account_name" placeholder="Enter account name" required>
+                    </div>
+                    <br>
+                    <div class="form1" style="font-size:20px">
+                        <label for="weather">Select Weather Condition: </label>
+                        <select id="weather" required>
+                            <option value="">--select--</option>
+                            <option value="">Sunny</option>
+                            <option value="">Partly Cloudy</option>
+                            <option value="">Cloudy</option>
+                            <option value="">Can't Tell</option>
+                        </select>
+                    </div>
+                    <br>
+                    <table>
+                        <tr>
+                            <td>
+                            <div class="form1" style="font-size:20px">
+                                <input type="checkbox" id="certified" value="">
+                                <label for="certified"> I am a certified miner</label>
+                            </div>
+                                <br>
+                            <td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="form1" style="font-size:20px">
+                                    <input type="checkbox" id="gateway" value="">
+                                    <label for="gateway"> I am next to a working gateway</label>
+                                </div>
+                                <br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="form1" style="font-size:20px">
+                                    <input type="checkbox" id="launch" value="">
+                                    <label for="launch"> I will launch in the next 10 minutes</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div style="font-size:20px" align="center">
+                        <br>
+                    <input type="submit" id="submit" value="submit" style="background-color: #871f78; border: none; color: white; padding: 10px 24px; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; border-radius: 10px">
+                    </div>
+
+                    <div style="padding-top: 5px; padding-bottom: 50px; font-size:18px; font-style: italic">Note: After clicking Submit, wait 5 seconds and then plug in the battery to initiate the authentication.</div>
+            </div>
+            </fieldset>
+            </div>
+        </form>
+    </body>
+</html>
