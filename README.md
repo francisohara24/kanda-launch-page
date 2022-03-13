@@ -1,2 +1,2 @@
 # Kanda
-Minimalist Kanda authentication page.
+Webpage for authenticating Kanda weather balloon launches.
